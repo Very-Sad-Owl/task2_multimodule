@@ -1,0 +1,12 @@
+allprojects {
+    group = 'ru.clevertec.tasks.olga'
+    version = '0.1'
+}
+
+subprojects {
+    apply plugin: 'java'
+}
+
+//sourceSets {
+//    outputDir = file("$buildDir/classes")
+//}
